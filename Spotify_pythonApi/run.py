@@ -40,6 +40,7 @@ BEARER_TOKEN = ""
 # The app can stop the downloading process if 5 songs fail before prompting to re-run
 
 MAX_LENGTH = 60 * 10  
+
 MIN_VIEW_COUNT = 5000 
 
 FAIL_THRESHOLD = 5
