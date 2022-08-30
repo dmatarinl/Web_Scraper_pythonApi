@@ -241,7 +241,6 @@ def download_playlist(id_Playlist, folder):
                 viewcount = int(re.sub('[^0-9]','', data_yt['views']))
 
                 songlink = "https://www.youtube.com" + data_yt['url_suffix']
-                song_albumc_link = data_yt['thumbnails'][0]
 
                 if(duration >= MAX_LENGTH):
                     
